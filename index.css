@@ -14,13 +14,10 @@ body{
 main{
   height:100%;
   display:grid;
-  gap:1em;
 }
   
   .create-div{
-    /*position:fixed;*/
     margin-top:1.8em;
-   /* z-index:10;*/
     justify-self: center;
   }
   .displayTasks{
