@@ -20,7 +20,7 @@ main{
   .create-div{
     /*position:fixed;*/
     margin-top:1.8em;
-    z-index:10;
+   /* z-index:10;*/
     justify-self: center;
   }
   .displayTasks{
