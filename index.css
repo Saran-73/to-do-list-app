@@ -18,8 +18,8 @@ main{
 }
   
   .create-div{
-    position:fixed;
-    top:1.5em;
+    /*position:fixed;*/
+    margin-top:1.8em;
     z-index:10;
     justify-self: center;
   }
@@ -30,7 +30,7 @@ main{
     margin-inline:auto;
     display: flex;
     flex-direction: column-reverse;
-    margin-top:5rem;
+    margin-top:5.5rem;
     align-self: start;
     
   } 
