@@ -1,0 +1,143 @@
+
+:root{
+  --green:rgb(42, 187, 42);
+}
+body{
+      margin:0;
+      min-height:100vh;
+      background-color: rgb(224, 224, 224);
+      font-family: 'Source Sans Pro', sans-serif;
+  }
+  *{
+    box-sizing:border-box;
+  }
+main{
+  height:100%;
+  display:grid;
+  gap:1em;
+}
+  
+  .create-div{
+    margin-inline:auto;
+    position:fixed;
+    top:1.5em;
+    z-index:10;
+    justify-self: center;
+  }
+  .displayTasks{
+    width:clamp(20rem,50%,40rem); 
+    padding:0.5rem;
+    border-radius:0.4em;
+    margin-inline:auto;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top:5rem;
+    align-self: start;
+    
+  } 
+  .card{
+    display:flex;
+    border-radius:0.5em;
+    background-color: white;
+    padding:0.1em 1.5em;
+    /* letter-spacing: 1.5px; */
+    margin-top:1.5em;
+  }
+  .firstdiv{
+    display:grid;
+    place-items: center;
+  }
+  .checkmark {
+    width: 28px;
+    aspect-ratio:1;
+    background-color:white;
+    border-radius:0.2em;
+    border:3px solid rgb(224, 224, 224);
+    cursor:pointer;
+  }
+  .checkmark[data-clicked="true"]{
+    background-image: url("images/check-mark-white.png");
+    background-position: center;
+    background-size: 18px;
+    background-repeat: no-repeat;
+    background-color:var(--green);
+    width: 28px;
+    aspect-ratio:1;
+    border-radius:0.2em;
+    cursor:pointer;
+    position:relative;
+    color:white;
+    border:3px solid var(--green);
+  }
+  .seconddiv{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left:1.2rem;
+    font-size:1.5rem;
+    position:relative;
+  }
+.seconddiv [data-clicked="true"]{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    position:relative;
+  }
+  .seconddiv [data-clicked="true"]::after{
+    content:'';
+    position:absolute;
+    width:100%;
+    height:1px;
+    background-color:rgb(203, 199, 199);
+    animation-name: straightline;
+    animation-duration:350ms;
+    animation-timing-function:linear;
+  }
+  @keyframes straightline {
+    0% {
+      width:0%;
+    }
+    100% {
+      width:100%;
+    }
+  }
+  p {
+    color:black;
+    font-style:initial;
+  }
+   p[data-clicked="true"] {
+    color:rgb(160, 160, 160);
+    font-style:italic;
+  }
+  
+input{
+  border:2px solid rgb(255, 255, 255);
+  border-radius:0.3em;
+  font-size:1.3rem;
+  padding:0.25em;
+  margin-right:0.5rem;
+}
+input:focus,button:focus{
+  outline:none;
+}
+button{
+  border:0;
+  border-radius:0.5em;
+  background-color: var(--green);
+  color:rgb(255, 255, 255);
+  padding:0.65rem;
+  cursor:pointer;
+  font-size:1rem;
+  font-weight:bold;
+  letter-spacing:1px;
+}
+.card img{
+  width:2rem;
+  aspect-ratio: 1;
+  cursor:pointer;
+  margin-left:1rem;
+}
+
+
