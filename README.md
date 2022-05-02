@@ -27,13 +27,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+
+![to-do-app](https://user-images.githubusercontent.com/94773376/166233027-b9b32cd1-de5c-4cc5-a95c-82f94f7a336f.PNG)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://saran-73.github.io/to-do-list-app/](https://your-live-site-url.com)
 
 ## My process
 
@@ -62,9 +62,7 @@ I should practise building projects with vanilla javascript, need to work more a
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Twitter - [@Saran840900481](https://www.twitter.com/yourusername)
 
 
 
