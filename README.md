@@ -49,7 +49,7 @@ Users should be able to:
 - CSS 
 - Flexbox
 - Javascript
-- Mobile first approach
+
 
 ### What I learned
 
